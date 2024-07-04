@@ -2,10 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  height: 100vh;
+  width: 100vw;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #cd0404;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,6 +34,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+
 }
 
 button {
@@ -72,10 +74,10 @@ button:focus-visible {
   width: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #fff;
-  border: 1px solid #000;
+  justify-content: space-evenly;
+  color: rgba(219, 211, 211, 0.87);
+  background-color: #0e0303;
+  border: 1px solid #e9e6e6;
 }
 
 form {
@@ -85,31 +87,45 @@ form {
 }
 
 .main {
-  margin: 0 50%;
-  border: 1px solid #000;
+  width: 100vw;
+  height: 100vh;
+  background-color: #213547;
+  display: grid;
+  place-items: center;
+
+  
 }
 
 th,
 tbody,
 td {
-  border: 1px solid #000;
+  border: 1px solid #f2f0f0;
 }
 
 input {
-  background-color: #1a1a1a;
+  background-color: #716868;
   font-size: 16px;
   height: 20px;
-  color: #fff;
+  color: #060505;
 }
 
 .price {
   background-color: #646cff;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
   
 }
 
 
 h3 {
-  margin: 0 auto;
-  font-size: 32px;
-  color: #213547;
+  margin: 0;
+  font-size: 24px;
+  background-color: #000000;
+  color: #f9f9f9;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
